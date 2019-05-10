@@ -1,0 +1,16 @@
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="bootstrap_4.3.1_css_bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<body ng-app="ngcribs" ng-controller="cribcontroller">
+
+<div class="well" ng-repeat="item in json_data">
+<li>{{item.name}}</li>
+</div>
+</body>
+<script src="angularjs_1.7.8_angular.min.js"></script>
+<script src="ui-bootstrap.min.js"></script>
+<script src="ui-bootstrap-tpls.min.js"></script>
+<script src="app.js"></script>
+<script src="scripts/controller.js"></script>
+<script src="scripts/factory.js"></script>
+</html>
